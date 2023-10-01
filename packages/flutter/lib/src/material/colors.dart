@@ -775,7 +775,7 @@ abstract final class Colors {
       100: Color(0xFFD1C4E9),
       200: Color(0xFFB39DDB),
       300: Color(0xFF9575CD),
-      400: Color(0xFF7E57C2),
+      400: Color(0xFF57C2B2),
       500: Color(_deepPurplePrimaryValue),
       600: Color(0xFF5E35B1),
       700: Color(0xFF512DA8),
