@@ -26,23 +26,27 @@ class Perguntas extends StatelessWidget {
             Text(perguntas[0]),
             ElevatedButton(
               child: Text('Resposta 1'),
-              onPressed: null,
+              onPressed: responder,
             ),
-            //pergunta 1
+
             Text(perguntas[1]),
             ElevatedButton(
               child: Text('Resposta 1'),
-              onPressed: null,
+              onPressed: responder,
             ),
 
             Text(perguntas[2]),
             ElevatedButton(
               child: Text('Resposta 1'),
-              onPressed: null,
+              onPressed: responder,
             ),
           ],
         ),
       ),
     );
+  }
+
+  responder() {
+    return print('Pergunta respondida');
   }
 }
