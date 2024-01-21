@@ -13,7 +13,16 @@ class Perguntas extends StatelessWidget {
         appBar: AppBar(
           title: Text('Perguntas'),
         ),
-        body: Text('Ola'),
+        body: Column(
+          // Boddy recebe apenas um Widget, sendo nescessario chamar um widget que recebe uma lista
+          children: [
+            Text('Teste 1'),
+            Text('Teste 1'),
+            Text('Teste 1'),
+            Text('Teste 1'),
+            Text('Teste 1'),
+          ],
+        ),
       ),
     );
   }
