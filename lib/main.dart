@@ -8,6 +8,12 @@ main() {
 class Perguntas extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(title: ('Meu primeiro APP'), home: Text('Ola mundo'));
+    return MaterialApp(
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text('Perguntas'),
+        ),
+      ),
+    );
   }
 }
